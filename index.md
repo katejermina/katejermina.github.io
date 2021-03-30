@@ -31,7 +31,6 @@
                     <a href="#contact" class="nav-link">Contact</a>
                 </div>
             </div>
-
         </header>
         <div class="nav-links nav-links-off" id="nav-links">
             <a href="#home" class="nav-link">Home</a>
@@ -74,7 +73,6 @@
                 <div class="index-right">
                 </div>
             </div>
-
             <div class="content-pages">
                 <div class="content-about" id="about">
                     <div class="about-spread">
@@ -93,13 +91,10 @@
                                     <button type="button" class="btn">See my <a href="#work" class="contact-resume">résumé</a> </button>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
-
                 <div class="spacer-other"></div>
-
                 <div class="content-work" id="work">
                     <div class="work-spread">
                         <h1 class="">Journey</h1>
@@ -200,7 +195,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="speech">
                                 <a href="#modal-speech">
                                     <div class="project-title">
@@ -249,7 +243,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="game">
                                 <a href="#modal-game">
                                     <div class="project-title">
@@ -258,7 +251,6 @@
                                     </div>
                                 </a>
                             </div>
-
                             <div id="modal-game" class="modal">
                                 <div class="modal-content">
                                     <a href="#history" class="modal-close">&times;</a>
@@ -291,12 +283,11 @@
                                             <span class="sr-only">Next</span>
                                         </a>
                                     </div>
-
                                     <div class="img-device">
                                         <div id="carousel-game-device" class="carousel slide" data-ride="carousel">
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
-                                                    <img class="d-block device w-100" src="images/works/game/device/01.png">
+                                                    <img class="d-block device w-100" src="images/works/game/device/01.PNG">
                                                 </div>
                                                 <div class="carousel-item">
                                                     <img class="d-block device w-100" src="images/works/game/device/05.png">
@@ -324,8 +315,6 @@
                                             </a>
                                         </div>
                                     </div>
-
-
                                     <p class="project-info">Technologies/Software used: Stencyl, Photoshop </p>
                                     <p class="project-info">Keywords: Platform game, Stencyll, Game Development </p>
                                 </div>
@@ -334,11 +323,9 @@
                     </div>
                 </div>
             </div>
-
             <div class="bottom-page">
                 <div class="content-contact" id="contact">
                     <div class="footer-device">
-
                         <div class="social-icons">
                             <a href="mailto:kkjermina@gmail.com"><img src="images/icons/mail.png" alt="mail" class="social-icon" /></a>
                             <a href="https://www.linkedin.com/in/katejermina/"><img src="images/icons/linkedin.png" alt="linkedin" class="social-icon" /></a>
@@ -372,7 +359,6 @@
         </div>
     </div>
     </div>
-
 
     <script src="path/to/smooth-scroll.polyfills.min.js "></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
