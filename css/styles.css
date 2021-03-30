@@ -326,6 +326,9 @@ header {
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.5);
   }
+  .index-scroll-up-full {
+    display: none;
+  }
   .arrow-up {
     border: solid rgb(255, 255, 255);
     border-width: 0 3px 3px 0;

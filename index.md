@@ -359,7 +359,6 @@
         </div>
     </div>
     </div>
-
     <script src="path/to/smooth-scroll.polyfills.min.js "></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -375,35 +374,24 @@
             } else {
                 menuContent.style.position = "relative";
                 menuContent.style.display = "none";
-
             }
         })
-
         let scrollUp = document.querySelector('.index-scroll-up');
         let scrollUpFull = document.querySelector('.index-scroll-up-full');
         window.onscroll = function () { scrollFunction() };
-
         function scrollFunction() {
             if ((document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) && document.documentElement.clientWidth < 499) {
                 scrollUp.style.display = "inherit";
             } else {
                 scrollUp.style.display = "none";
             }
-
             if ((document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) && document.documentElement.clientWidth > 510) {
                 scrollUp.style.display = "none";
                 scrollUpFull.style.display = "inherit";
             } else {
-                // scrollUp.style.display = "none";
                 scrollUpFull.style.display = "none";
             }
-
         }
     </script>
-    <!-- <script>
-        var scroll = new SmoothScroll('a[href*="# "]');
-    </script> -->
-
 </body>
-
 </html>
