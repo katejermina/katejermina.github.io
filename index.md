@@ -80,7 +80,7 @@
                         <h1 class="content-h1">About</h1>
                         <div class="about-container container-fluid">
                             <div class="about-me-pic">
-                                <img class="about-me-icon" src="images/kate-icon-squuare-hover.png " alt="icon" />
+                                <img class="about-me-icon" src="images/kate-icon-square-hover.png " alt="icon" />
                             </div>
                             <div class="about-me-text">
                                 <p>
