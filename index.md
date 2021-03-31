@@ -8,8 +8,6 @@
     <title>Kate Jermina</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" />
-    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" /> -->
 </head>
 
 <body>
@@ -18,7 +16,6 @@
             <div class="top-menu">
                 <a href="#">
                     <p class="logo">katejermina</p>
-                    <p class="logo-alter">kjermina</p>
                 </a>
                 <div id="menuToggle" class="menu-toggle">
                     <img src="images/icons/menu.png" alt="" class="menu-button">
@@ -94,7 +91,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="spacer-other"></div>
+                <div class="spacer-black"></div>
                 <div class="content-work" id="work">
                     <div class="work-spread">
                         <h1 class="">Journey</h1>
@@ -130,15 +127,16 @@
                                         Companies I have worked with
                                     </p>
                                     <div class="company-logos">
-                                        <img src="images/logos/filinvest-logo.png" alt="filinvest-logo" class="company-logo" />
-                                        <img src="images/logos/accenture-logo.png" style="background-color: white;" alt="accenture-logo" class="company-logo" />
+                                        <img src="images/logos/filinvest-logo.png" alt="filinvest-logo" class="company-logo" data-toggle="tooltip" title="Filinvest Inc." />
+                                        <img src="images/logos/accenture-logo.png" style="background-color: white;" alt="accenture-logo" class="company-logo" data-toggle="tooltip" title="Accenture Inc." />
                                     </div>
                                 </div>
                                 <br>
                                 <div class="certifications">
                                     <p class="work-text">Certifications</p>
                                     <div class="cert-content">
-                                        <a href="https://www.youracclaim.com/badges/a265b9d2-3033-4e81-afff-cca720e3337f/public_url"><img src="images/logos/azure-fundamentals.png" alt="azure-fundamentals" class="cert-badge"></a>
+                                        <a href="https://www.youracclaim.com/badges/a265b9d2-3033-4e81-afff-cca720e3337f/public_url"><img src="images/logos/azure-fundamentals.png" alt="azure-fundamentals" class="cert-badge" data-toggle="tooltip" title="AZ-900"></a>
+                                        <p style="color: #fff;">Microsoft Certified: AZ-900 / Azure Fundamentals</p>
                                     </div>
                                 </div>
                             </div>
@@ -287,7 +285,7 @@
                                         <div id="carousel-game-device" class="carousel slide" data-ride="carousel">
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
-                                                    <img class="d-block device w-100" src="images/works/game/device/01.PNG">
+                                                    <img class="d-block device w-100" src="images/works/game/device/01.png">
                                                 </div>
                                                 <div class="carousel-item">
                                                     <img class="d-block device w-100" src="images/works/game/device/05.png">
@@ -326,6 +324,7 @@
             <div class="bottom-page">
                 <div class="content-contact" id="contact">
                     <div class="footer-device">
+
                         <div class="social-icons">
                             <a href="mailto:kkjermina@gmail.com"><img src="images/icons/mail.png" alt="mail" class="social-icon" /></a>
                             <a href="https://www.linkedin.com/in/katejermina/"><img src="images/icons/linkedin.png" alt="linkedin" class="social-icon" /></a>
@@ -342,11 +341,11 @@
                             <p><a class="credits"><span>©&nbsp</span></span>Kate Jermina</a> &nbsp2021</p>
                         </div>
                         <div class="social-icons">
-                            <a href="mailto:kkjermina@gmail.com"><img src="images/icons/mail.png" alt="mail" class="social-icon" /></a>
-                            <a href="https://www.linkedin.com/in/katejermina/"><img src="images/icons/linkedin.png" alt="linkedin" class="social-icon" /></a>
-                            <a href="https://www.instagram.com/katejermina"><img src="images/icons/instagram.png" alt="instagram" class="social-icon" /></a>
-                            <a href="https://www.twitter.com/"><img src="images/icons/twitter.png" alt="twitter" class="social-icon" /></a>
-                            <a href="https://www.github.com/katejermina"><img src="images/icons/github.png" alt="github" class="social-icon github" /></a>
+                            <a href="mailto:kkjermina@gmail.com"><img src="images/icons/mail.png" alt="mail" class="social-icon" data-toggle="tooltip" title="Send a mail!" /></a>
+                            <a href="https://www.linkedin.com/in/katejermina/"><img src="images/icons/linkedin.png" alt="linkedin" class="social-icon" data-toggle="tooltip" title="Linkedin" /></a>
+                            <a href="https://www.instagram.com/katejermina"><img src="images/icons/instagram.png" alt="instagram" class="social-icon" data-toggle="tooltip" title="Instagram" /></a>
+                            <a href="https://www.twitter.com/"><img src="images/icons/twitter.png" alt="twitter" class="social-icon" data-toggle="tooltip" title="Twitter" /></a>
+                            <a href="https://www.github.com/katejermina"><img src="images/icons/github.png" alt="github" class="social-icon github" data-toggle="tooltip" title="Github" /></a>
                         </div>
                         <div class="">
                             <p class="contact-text-right">
@@ -374,24 +373,30 @@
             } else {
                 menuContent.style.position = "relative";
                 menuContent.style.display = "none";
+
             }
         })
         let scrollUp = document.querySelector('.index-scroll-up');
         let scrollUpFull = document.querySelector('.index-scroll-up-full');
         window.onscroll = function () { scrollFunction() };
         function scrollFunction() {
-            if ((document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) && document.documentElement.clientWidth < 499) {
+            if ((document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) && document.documentElement.clientWidth < 501) {
                 scrollUp.style.display = "inherit";
+                scrolllUpFull.style.display = "none";
             } else {
                 scrollUp.style.display = "none";
+                scrollUpFull.style.display = "none";
             }
+
             if ((document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) && document.documentElement.clientWidth > 510) {
                 scrollUp.style.display = "none";
                 scrollUpFull.style.display = "inherit";
             } else {
+                scrollUp.style.display = "none";
                 scrollUpFull.style.display = "none";
             }
         }
     </script>
+
 </body>
 </html>
