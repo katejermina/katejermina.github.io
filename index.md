@@ -260,19 +260,19 @@
                                         <div id="carousel-game" class="carousel slide" data-ride="carousel">
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
-                                                    <img class="d-block w-40" src="images/works/game/01.PNG">
+                                                    <img class="d-block w-40" src="images/works/game/01.png">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img class="d-block w-40" src="images/works/game/02.PNG">
+                                                    <img class="d-block w-40" src="images/works/game/02.png">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img class="d-block w-40" src="images/works/game/03.PNG">
+                                                    <img class="d-block w-40" src="images/works/game/03.png">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img class="d-block  w-40" src="images/works/game/04.PNG">
+                                                    <img class="d-block  w-40" src="images/works/game/04.png">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img class="d-block  w-40" src="images/works/game/05.PNG">
+                                                    <img class="d-block  w-40" src="images/works/game/05.png">
                                                 </div>
                                             </div>
                                         </div>
@@ -289,22 +289,22 @@
                                         <div id="carousel-game-device" class="carousel slide" data-ride="carousel">
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
-                                                    <img class="d-block w-100" src="images/works/game/device/01.png">
+                                                    <img class="d-block w-100" src="images/works/game/device/01.PNG">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img class="d-block w-100" src="images/works/game/device/05.png">
+                                                    <img class="d-block w-100" src="images/works/game/device/05.PNG">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img class="d-block w-100" src="images/works/game/device/06.png">
+                                                    <img class="d-block w-100" src="images/works/game/device/06.PNG">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img class="d-block w-100" src="images/works/game/device/07.png">
+                                                    <img class="d-block w-100" src="images/works/game/device/07.PNG">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img class="d-block w-100" src="images/works/game/device/09.png">
+                                                    <img class="d-block w-100" src="images/works/game/device/09.PNG">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img class="d-block w-100" src="images/works/game/device/10.png">
+                                                    <img class="d-block w-100" src="images/works/game/device/10.PNG">
                                                 </div>
                                             </div>
                                             <a class="carousel-control-prev" href="#carousel-game-device" role="button" data-slide="prev">
@@ -328,7 +328,6 @@
             <div class="bottom-page">
                 <div class="content-contact" id="contact">
                     <div class="footer-device">
-
                         <div class="social-icons">
                             <a href="mailto:kkjermina@gmail.com"><img src="images/icons/mail.png" alt="mail" class="social-icon" /></a>
                             <a href="https://www.linkedin.com/in/katejermina/"><img src="images/icons/linkedin.png" alt="linkedin" class="social-icon" /></a>
@@ -401,6 +400,9 @@
             }
         }
     </script>
+    <!-- <script>
+        var scroll = new SmoothScroll('a[href*="# "]');
+    </script> -->
 
 </body>
 </html>
