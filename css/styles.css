@@ -1661,13 +1661,6 @@ header {
   .project-texts {
     padding: 10px;
   }
-  .d-block {
-    display: grid;
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-  }
   .img-device {
     display: none;
   }
