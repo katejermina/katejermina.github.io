@@ -156,7 +156,7 @@
                                 <a href="#modal-capstone">
                                     <div class="project-title">
                                         <p class="number">1</p>
-                                        <p class="project-button">Capstone Project: <br> Web-based Appointment Scheduling System with Interactive Directory</p>
+                                        <p class="project-button">Capstone Project: <br> Web-based Appointment Scheduling System with SMS Notification & Interactive Directory</p>
                                     </div>
                                 </a>
                                 <div id="modal-capstone" class="modal">
@@ -192,7 +192,7 @@
                                         <div class="project-texts">
                                             <p class="project-info">Intended platform: Touchscreen device/Desktop</p>
                                             <p class="project-info">Technologies used: HTML, CSS, Javascript, JQuery, PHP, MySQL, XAMPP, Corel Draw, Photoshop, Lightroom</p>
-                                            <p class="project-info">Keywords: Content Management System, Appointment Scheduling System, Mapping System </p>
+                                            <p class="project-info">Keywords: Content Management System, Appointment Scheduling System, Mapping System, SMS </p>
                                         </div>
                                     </div>
                                 </div>
