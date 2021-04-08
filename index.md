@@ -89,7 +89,7 @@
                                     <br><br>Eventually, I was given an opportunity to have a role in Devops. Now, I carry the continuous drive for excellence in cloud computing.
                                 </p>
                                 <div class="resume-text">
-                                    <button type="button" class="btn">See my <a href="/resume/Kate-Jermina-Resume" class="contact-resume">résumé</a> </button>
+                                    <button type="button" class="btn">See my <a href="/resume/Kate-Jermina-Resume.pdf" class="contact-resume">résumé</a> </button>
                                 </div>
                             </div>
                         </div>
