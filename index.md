@@ -86,7 +86,7 @@
                                 <p>
                                     My name is Kate Jermina. I've been an IT professional for 2 years now. I have a degree in Information Technology with Latin honors, and planning to pursue higher education in the near future.
                                     <br><br>The College organization I was a part of served as my training ground for my current career. My early projects made me exhibit my creativity, critical thinking, and collaboration towards others--I figured, I can fit in front-end or back-end.
-                                    <br><br>Eventually, I was given an opportunity to have a role in Devops. Now, I carry the continuous drive for excellence in cloud computing.
+                                    <br><br>Eventually, I was given an opportunity to have a role in Devops. Now, I carry the continuous drive for excellence in web development and cloud computing.
                                 </p>
                                 <div class="resume-text">
                                     <button type="button" class="btn">See my <a href="/resume/Kate-Jermina-Resume.pdf" class="contact-resume">résumé</a> </button>
@@ -105,6 +105,11 @@
                                     Technologies I have used
                                 </p>
                                 <div class="tech-icons">
+                                    <img class="tech-icon" src="images/icons/technologies/white/html.png" data-toggle="tooltip" title="HTML">
+                                    <img class="tech-icon" src="images/icons/technologies/white/css3.png" data-toggle="tooltip" title="CSS">
+                                    <img class="tech-icon" src="images/icons/technologies/white/javascript.png" data-toggle="tooltip" title="Javascript">
+                                    <img class="tech-icon" src="images/icons/technologies/photoshop.png" data-toggle="tooltip" title="Photoshop">
+                                    <img class="tech-icon" src="images/icons/technologies/lightroom.png" data-toggle="tooltip" title="Lightroom">
                                     <img class="tech-icon" src="images/icons/technologies/white/git.png" data-toggle="tooltip" title="Git">
                                     <img class="tech-icon-sm" src="images/icons/technologies/white/junit.png" data-toggle="tooltip" title="Junit">
                                     <img class="tech-icon" src="images/icons/technologies/maven.png" data-toggle="tooltip" title="Maven">
@@ -119,10 +124,6 @@
                                     <img class="tech-icon" src="images/icons/technologies/white/kubernetes.png" data-toggle="tooltip" title="Kubernetes">
                                     <img class="tech-icon-m" src="images/icons/technologies/white/log4j.png" data-toggle="tooltip" title="Log4j">
                                     <img class="tech-icon-sm" src="images/icons/technologies/white/splunk.png" data-toggle="tooltip" title="Splunk">
-                                    <img class="tech-icon" src="images/icons/technologies/white/html.png" data-toggle="tooltip" title="HTML">
-                                    <img class="tech-icon" src="images/icons/technologies/white/css3.png" data-toggle="tooltip" title="CSS">
-                                    <img class="tech-icon" src="images/icons/technologies/photoshop.png" data-toggle="tooltip" title="Photoshop">
-                                    <img class="tech-icon" src="images/icons/technologies/lightroom.png" data-toggle="tooltip" title="Lightroom">
                                 </div>
                             </div>
                             <div class="work-companies">
@@ -341,7 +342,7 @@
                     </div>
                     <div class="footer-full">
                         <div class="">
-                            <p><a class="credits"><span>©&nbsp</span></span>Kate Jermina</a> &nbsp2021</p>
+                            <p id='footer'><a class="credits"><span>©&nbsp</span></span>Kate Jermina</a> &nbsp2021</p>
                         </div>
                         <div class="social-icons">
                             <a href="mailto:kkjermina@gmail.com"><img src="images/icons/mail.png" alt="mail" class="social-icon" data-toggle="tooltip" title="Send a mail!" /></a>
@@ -361,11 +362,9 @@
         </div>
     </div>
     </div>
-    <script src="path/to/smooth-scroll.polyfills.min.js "></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script type="text/javascript " src="vendors/scrolloverflow.min.js "></script>
     <script>
         let dropdownBtn = document.querySelector('.menu-toggle');
         let menuContent = document.querySelector('.nav-links');
@@ -399,10 +398,11 @@
                 scrollUpFull.style.display = "none";
             }
         }
+        function changeFooter() {
+            const footer = document.querySelector('footer');
+            footer.firstElementChild.textContent = + '2021';
+        }
     </script>
-    <!-- <script>
-        var scroll = new SmoothScroll('a[href*="# "]');
-    </script> -->
 
 </body>
 </html>
