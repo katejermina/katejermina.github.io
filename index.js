@@ -1,7 +1,8 @@
 let dropdownBtn = document.querySelector(".menu-toggle");
 let menuContent = document.querySelector(".nav-links");
+
 dropdownBtn.addEventListener("click", () => {
-  if (menuContent.style.display === "none") {
+  if (menuContent.style.display === 'none') {
     menuContent.style.position = "absolute";
     menuContent.style.display = "grid";
   } else {
@@ -9,11 +10,14 @@ dropdownBtn.addEventListener("click", () => {
     menuContent.style.display = "none";
   }
 });
-let scrollUp = document.querySelector(".index-scroll-up");
-let scrollUpFull = document.querySelector(".index-scroll-up-full");
+
+let scrollUp = document.querySelector(".index-scroll-up")  ;
+let scrollUpFull = document.querySelector(".index-scroll-up-full") ;
+
 window.onscroll = function () {
   scrollFunction();
 };
+
 function scrollFunction() {
   if (
     (document.body.scrollTop > 100 ||
@@ -21,7 +25,7 @@ function scrollFunction() {
     document.documentElement.clientWidth < 501
   ) {
     scrollUp.style.display = "inherit";
-    scrolllUpFull.style.display = "none";
+    scrollUpFull.style.display = "none";
   } else {
     scrollUp.style.display = "none";
     scrollUpFull.style.display = "none";
@@ -38,9 +42,4 @@ function scrollFunction() {
     scrollUp.style.display = "none";
     scrollUpFull.style.display = "none";
   }
-}
-
-function changeFooter() {
-  const footer = document.querySelector("footer");
-  footer.firstElementChild.textContent = +"2021";
 }
