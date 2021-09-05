@@ -1290,12 +1290,12 @@ header {
     line-height: 90%;
     font-size: 20vh;
     transition: all 0.3s ease 0s;
-    color: rgb(0, 0, 0);
+    color: #e5e5e5;
   }
   .index-left .world {
     color: transparent;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-color: #e5e5e5;
     transition: all 0.3s ease 0s;
   }
   .index-left .world:hover {
