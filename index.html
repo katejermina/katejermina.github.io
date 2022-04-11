@@ -25,7 +25,7 @@
             </div>
 
             <iframe class="video" height="100%" width="100%"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&controls=0&showinfo=0&rel=0&loop=1?t=212" frameborder="0"
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1&showinfo=0&rel=0&loop=1?t=212" frameborder="0"
                 allow="autoplay"></iframe>
         </div>
     </div>
@@ -51,7 +51,6 @@
         width: 100vw;
         height: 100vh;
         transform: translate(-50%, -50%);
-        pointer-events: none;
     }
 </style>
 </html>
