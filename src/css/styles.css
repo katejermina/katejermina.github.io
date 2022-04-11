@@ -146,8 +146,7 @@ header {
   .index-cover {
     height: 100%;
     width: 100vw;
-    /* background-image: url("../images/bg-sml.png"); */
-    background-color: #0a0b0e;
+    background-image: url("../images/bg-sml.png");
     background-attachment: fixed;
     background-position: left left;
     background-repeat: no-repeat;
@@ -246,7 +245,7 @@ header {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     line-height: 90%;
-    font-size: 16vw;
+    font-size: 25vw;
     margin-top: 100px;
     transition: all 0.3s ease 0s;
   }
@@ -258,7 +257,7 @@ header {
   }
   .index-left .world:hover {
     transition: all 0.3s ease 0s;
-    font-size: 17vw;
+    font-size: 26vw;
   }
   .content-index .index-intro {
     font-family: "Poppins", sans-serif;
@@ -337,7 +336,7 @@ header {
     transition: all 0.3s ease 0s;
   }
   .about-spread {
-    height: 100vh;
+    height: auto;
     background: linear-gradient(#000000, transparent, transparent, #000);
     padding-top: 50px;
   }
@@ -678,8 +677,7 @@ header {
   .index-cover {
     height: 100%;
     width: 100vw;
-    /* background-image: url("../images/bg-lg.png"); */
-    background-color: #0a0b0e;
+    background-image: url("../images/bg-lg.png");
     background-attachment: fixed;
     background-position: left left;
     background-repeat: no-repeat;
@@ -778,7 +776,7 @@ header {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     line-height: 90%;
-    font-size: 65px;
+    font-size: 110px;
     margin-top: 120px;
     transition: all 0.3s ease 0s;
   }
@@ -786,12 +784,11 @@ header {
     color: transparent;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: white;
-    font-size: 65px;
     transition: all 0.3s ease 0s;
   }
   .index-left .world:hover {
     transition: all 0.3s ease 0s;
-    font-size: 10vw;
+    font-size: 26vw;
   }
   .content-index .index-intro {
     font-family: "Poppins", sans-serif;
@@ -870,7 +867,7 @@ header {
     transition: all 0.3s ease 0s;
   }
   .about-spread {
-    height: 100vh;
+    height: auto;
     background: linear-gradient(transparent, transparent, #000);
   }
   .content-about .about-me-pic {
@@ -1211,8 +1208,7 @@ header {
   .index-cover {
     height: 100vh;
     width: 100vw;
-    /* background-image: url("../images/bg-lg.png"); */
-    background-color: #0a0b0e;
+    background-image: url("../images/bg-lg.png");
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
@@ -1290,12 +1286,12 @@ header {
     line-height: 90%;
     font-size: 20vh;
     transition: all 0.3s ease 0s;
-    color: #e5e5e5;
+    color: rgb(0, 0, 0);
   }
   .index-left .world {
     color: transparent;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #e5e5e5;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
     transition: all 0.3s ease 0s;
   }
   .index-left .world:hover {
@@ -1403,6 +1399,7 @@ header {
   .about-spread {
     height: 100vh;
     background: linear-gradient(transparent, transparent, #000000);
+    border: solid #000;
   }
   .about-container {
     width: 100%;
