@@ -21,11 +21,11 @@
         <div class="video-container">
             <div class="content-text video">
                 <h1>Haha. Sorry!</h1>
-                <p>This page is still under construction. Meanwhile, enjoy Mr. Rick Astley :)</p>
+                <p>This page is still under construction.</p>
             </div>
 
             <iframe class="video" height="100%" width="100%"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&controls=0" frameborder="0"
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&controls=0&showinfo=0&rel=0&loop=1?t=212" frameborder="0"
                 allow="autoplay"></iframe>
         </div>
     </div>
@@ -33,6 +33,7 @@
 
 <style>
     .content-text {
+        position: sticky;
         padding-top: 5%;
         text-align: center;
         z-index: 100;
