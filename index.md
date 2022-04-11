@@ -7,51 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kate Jermina</title>
     <link rel="shortcut icon" type="image/png" href="images/favicon.ico" />
-    <meta name="description" content="Kate Jermina | Portfolio. Connect with me if you want to collaborate for projects!">
+    <meta name="description"
+        content="Kate Jermina | Portfolio. Connect with me if you want to collaborate for projects!">
     <meta name="keywords" content="portfolio, web developer, it">
     <meta name="author" content="Kate Jermina">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
     <div class="content">
-        <div class="content-text">
-            <h1>Haha. Sorry!</h1>
-            <p>This page is still under construction. Meanwhile, enjoy some Rick Astley :)</p>
-        </div>
-
         <div class="video-container">
-            <center>
-                <iframe class="video" src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
-            </center>
+            <div class="content-text video">
+                <h1>Haha. Sorry!</h1>
+                <p>This page is still under construction. Meanwhile, enjoy Mr. Rick Astley :)</p>
+            </div>
+
+            <iframe class="video" height="100%" width="100%"
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&controls=0" frameborder="0"
+                allow="autoplay"></iframe>
         </div>
-
-
     </div>
 </body>
 
 <style>
     .content-text {
-        margin-top: 5%;
+        padding-top: 5%;
         text-align: center;
+        z-index: 100;
     }
 
     .video-container {
-        position: relative;
-        width: 100%;
-        padding-bottom: 30%;
-        pointer-events: none;
+        width: 100vw;
+        height: 100vh;
     }
 
     .video {
         position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: 0;
+        top: 50%;
+        left: 50%;
+        width: 100vw;
+        height: 100vh;
+        transform: translate(-50%, -50%);
+        pointer-events: none;
     }
 </style>
-
 </html>
