@@ -19,14 +19,14 @@
 <body>
     <div class="content">
         <div class="video-container">
-            <div class="content-text video">
+            <div class="content-text">
                 <h1>Haha. Sorry!</h1>
                 <p>This page is still under construction.</p>
             </div>
 
             <iframe class="video" height="100%" width="100%"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1&showinfo=0&rel=0&loop=1?t=212" frameborder="0"
-                allow="autoplay"></iframe>
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1&showinfo=0&rel=0&loop=1?t=212"
+                frameborder="0" allow="autoplay"></iframe>
         </div>
     </div>
 </body>
@@ -51,6 +51,8 @@
         width: 100vw;
         height: 100vh;
         transform: translate(-50%, -50%);
+        z-index: 99;
     }
 </style>
+
 </html>
