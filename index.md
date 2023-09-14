@@ -22,6 +22,7 @@
             <div class="content-text">
                 <h1>Haha. Sorry!</h1>
                 <p>This page is still under construction.</p>
+                <p>More to add soon.</p>
             </div>
 
             <iframe class="video" height="100%" width="100%"
